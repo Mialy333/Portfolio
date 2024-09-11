@@ -3,17 +3,17 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Bienvenue sur mon Portfolio! Anciennement financière, me voilà maintenant à explorer les univers du front-end (ex: React.js) et du back-end (ex: Django & Laravel) depuis Janvier 2024. Je n'ai pas de positionnement particulier et je suis ouverte aux nouvelles stacks. Mon objectif est d'intégrer les bonnes pratiques du Développement Web pour créer des applications performantes qui feront les expériences utlisateurs de demain. Pour ce faire, je recherche actuellement un contrat d'apprentissage de 12 mois dès Octobre 2024 (4jrs Entreprise + 1j Ecole).`;
+export const HERO_CONTENT = `Bienvenue sur mon Portfolio! Anciennement financière, me voilà maintenant à explorer les univers du front-end (ex: React.js) et du back-end (ex: Django & Laravel) depuis Janvier 2024. Je n'ai pas de positionnement particulier et je suis ouverte aux nouvelles stacks. Mon objectif est d'intégrer les bonnes pratiques du Développement Web pour créer des applications performantes et les expériences utlisateurs de demain. Pour ce faire, je recherche actuellement un contrat d'apprentissage de 12 mois dès Octobre 2024 (4jrs Entreprise + 1j Ecole).`;
 
 export const ABOUT_TEXT = `Après un licenciement économique en 2023 dans la finance, je décide d'opérer une reconversion professionnelle. 
 
-Je songe d'abord à reprendre mon activité de stratège en communication digitale en refaisant mes pages de vente avec quelques notions d'API.
+Je songe d'abord à reprendre mon activité de stratège en communication digitale en créant un site web personnalisé.
 
 En faisant mes recherches, j'applique un tuto du créateur de contenus vidéos nommé Graven. Je réalise que coder me plaît beaucoup plus que reprendre mon activité initiale.
 
-Mais le besoin de me professionnaliser avec des experts sur les bonnes pratiques se fait sentir. Je me forme alors au métier de Développeuse Web Fullstack à ADA Tech School.
+Désormais le besoin de me professionnaliser avec des experts sur les bonnes pratiques se fait sentir. Je me forme alors au métier de Développeuse Web Fullstack à ADA Tech School.
 
-J'ai une appétence pour le frontend via React.js et la programmation orientée objet sur Javascript. Je reste ouverte à d'autres langages et frameworks backend (ex: Django) pour créer des sites Web et des applications modernes. Une préférence pour MongoDB pour la gestion de base de données non-relationnelle.
+Depuis plusieurs mois maintenant, j'ai beaucoup appris par la documentation et les expériences des encadrants. Cela m'a permis de réaliser mes premiers projets personnels que je vous invite à regarder ci-dessous.
 
 Au-delà de ça, je suis pianiste et je compose, j'aime lire des récits fictifs, la mode, et j'adore cuisiner des pâtisseries :)`;
 
