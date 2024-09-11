@@ -22,7 +22,7 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Formation Full Stack Developer",
     company: "ADA Tech School",
-    description: `Apprentissage des langages de bases avec projets collectifs. Format: 9 mois de formation continue + 12 mois d'apprentissage en vue de passer le RNCP de niveau 6 (BAC+3/4). BIEN DETAILLER les projets collectifs.`,
+    description: `Apprentissage des langages de bases avec projets collectifs. Format: 9 mois de formation continue + 12 mois d'apprentissage en vue de passer le RNCP de niveau 6 (BAC+3/4).`,
     technologies: ["HTML", "CSS", "Javascript", "Django", "React.js", "Next.js", "mongoDB"],
   },
   {
@@ -45,32 +45,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Fullstack Portfolio - Frontend",
+    title: "Création d'une API",
     image: project3,
     description:
-      "Interface minimaliste présentant l'ensemble de mes expériences, réalisations et mes informations de contact.",
-    technologies: ["React", "Framer Motion"],
+      "Structuration des Features, Création des Bases de Données et Routes, Tests.",
+    technologies: ["Go", "Gin"],
   },
   {
     title: "Blog : Fullstack en Vrac - Fullstack",
     image: project4,
     description:
-      "Les tribulations d'une ancienne financière devenue développeuse web fullstack. Une plateforme de création et publication de posts avec insertion d'images et textes, la possibilité d'éditer, de commenter les articles. Gestion du back-end avec la création d'un compte Admin.",
-    technologies: ["HTML", "Tailwind", "Django"],
+      "Intégration d'images, ajout/édition/suppression d'articles et commentaires, gestion des données utilisateurs, articles, et commentaires.",
+    technologies: ["Django REST Framework ", "CSS", "SQLite"],
   },
   {
-    title: "Tracker d'habitudes pour Multipotentiels - Programmation Orientée Objet",
+    title: "Application Web de Vote",
     image: project1,
     description:
-      "(approche POO pour la partie code métier) Une application pour gérer les tâches, les envies et les projets des personnes au profil dit Multipotentiels. Possbilité de créer des tâches, les éditer et analyser la progression, calcul des profils avec des intérêts similaires.",
-    technologies: ["Nuxt", " Ou Sveltekit"],
+      "Visualisation des sondages, Création d'un compte admin & Intégration des tests CSRF.",
+    technologies: ["Django", "CSS"],
   },
   {
-    title: "Art & Piano - Frontend",
+    title: "Plateforme de microblogging (Collectif)",
     image: project2,
     description:
-      "Play automatique - transition smooth - soundwave - Lien vers l'image, lecture mp3, bouton précédent-suivant - Plateforme créative mêlant mes compositions personnelles au piano avec des oeuvres d'art. Gestion des API Restful.",
-    technologies: ["Figma", "Vue", "les3.dev"],
+      "Visualisation des articles, création des posts, authentification des utilisateurs, gestion de la base de données.",
+    technologies: ["Laravel", "PostgreSQL"],
   },
 ];
 
