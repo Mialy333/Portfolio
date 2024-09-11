@@ -36,7 +36,7 @@ export const EXPERIENCES = [
   {
     year: "2017 - 2023",
     role: "Financial Markets",
-    company: "A voir",
+    company: "",
     description: `Poste de commerciaux spécialisés en finance de marché entre France, Japon et Luxembourg`,
     technologies: ["relations clients", "analyse", "recueil des besoins"],
   },
@@ -52,7 +52,7 @@ export const PROJECTS = [
     technologies: ["Go", "Gin"],
   },
   {
-    title: "Blog : Fullstack en Vrac - Fullstack",
+    title: "Blog",
     image: project4,
     description:
       "Intégration d'images, ajout/édition/suppression d'articles et commentaires, gestion des données utilisateurs, articles, et commentaires.",
