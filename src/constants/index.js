@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Bienvenue sur mon Portfolio! Anciennement financière, me voilà maintenant à explorer les univers du front-end (ex: React.js) et du back-end (ex: Django & Laravel) depuis Janvier 2024. Je n'ai pas de positionnement particulier et je suis ouverte aux nouvelles stacks. Mon objectif est d'intégrer les bonnes pratiques du Développement Web pour créer des applications performantes et les expériences utlisateurs de demain. Pour ce faire, je recherche actuellement un contrat d'apprentissage de 12 mois dès Octobre 2024 (4jrs Entreprise + 1j Ecole).`;
+export const HERO_CONTENT = `Bienvenue sur mon Portfolio! Anciennement financière, me voilà maintenant à explorer les univers du front-end (ex: React.js) et du back-end (ex: Django & Laravel) depuis Janvier 2024. J'ai un profil Fullstack avec une préférence pour la partie backend. Je suis ouverte aux nouvelles stacks. Mon objectif est d'intégrer les bonnes pratiques du Développement Web pour créer des applications performantes et les expériences utlisateurs de demain. Pour ce faire, je recherche actuellement un contrat d'apprentissage de 12 mois dès Octobre 2024 (4jrs Entreprise + 1j Ecole).`;
 
 export const ABOUT_TEXT = `Après un licenciement économique en 2023 dans la finance, je décide d'opérer une reconversion professionnelle. 
 
