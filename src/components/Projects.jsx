@@ -39,6 +39,14 @@ const Projects = () => {
                                     {tech}
                                 </span>
                             ))}
+                            <a
+                                href={project.githubLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-500 hover:underline"
+                            >
+                                En savoir plus sur le projet
+                            </a>
                         </motion.div>
                     </div>
                 ))}

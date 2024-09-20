@@ -50,6 +50,7 @@ export const PROJECTS = [
     description:
       "Structuration des Features, Création des Bases de Données et Routes, Tests.",
     technologies: ["Go", "Gin"],
+    githubLink: "https://github.com/Mialy333/Go-APIRest"
   },
   {
     title: "Blog",
@@ -57,6 +58,7 @@ export const PROJECTS = [
     description:
       "Intégration d'images, ajout/édition/suppression d'articles et commentaires, gestion des données utilisateurs, articles, et commentaires.",
     technologies: ["Django REST Framework ", "CSS", "SQLite"],
+    githubLink: "https://github.com/Mialy333/Blog-projet-personnel"
   },
   {
     title: "Application Web de Vote",
@@ -64,6 +66,7 @@ export const PROJECTS = [
     description:
       "Visualisation des sondages, Création d'un compte admin & Intégration des tests CSRF.",
     technologies: ["Django", "CSS"],
+    githubLink: "https://github.com/Mialy333/Django-Polls-Testing"
   },
   {
     title: "Plateforme de microblogging (Collectif)",
@@ -71,6 +74,7 @@ export const PROJECTS = [
     description:
       "Visualisation des articles, création des posts, authentification des utilisateurs, gestion de la base de données.",
     technologies: ["Laravel", "PostgreSQL"],
+    githubLink: "https://github.com/Mialy333/Microblogging"
   },
 ];
 
