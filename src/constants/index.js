@@ -46,7 +46,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Création d'une API",
-    image: project3,
+    image: project1,
     description:
       "Structuration des Features, Création des Bases de Données et Routes, Tests.",
     technologies: ["Go", "Gin"],
@@ -62,7 +62,7 @@ export const PROJECTS = [
   },
   {
     title: "Application Web de Vote",
-    image: project1,
+    image: project3,
     description:
       "Visualisation des sondages, Création d'un compte admin & Intégration des tests CSRF.",
     technologies: ["Django", "CSS"],
