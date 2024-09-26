@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { VscVscode } from "react-icons/vsc";
 import { FaGit, FaDocker } from "react-icons/fa";
-import { SiKubernetes } from "react-icons/si";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
