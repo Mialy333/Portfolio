@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { VscVscode } from "react-icons/vsc";
 import { FaGit, FaDocker } from "react-icons/fa";
+import { useLanguage } from "../i18n/useLanguage";
 
 const iconVariants = (duration) => ({
     initial: { y: -10 },
@@ -16,6 +17,8 @@ const iconVariants = (duration) => ({
 })
 
 const Environment = () => {
+    const { t } = useLanguage();
+
     return (
         <div className="border-b border-neutral-800 pb-24">
 
@@ -31,7 +34,7 @@ const Environment = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: -100 }}
                         transition={{ duration: 1.5 }}
-                        className="my-20 text-center text-4xl">Environnement
+                        className="my-20 text-center text-4xl">{t.environment.heading}
                     </motion.h3>
                     <div className="flex flex-wrap items-center justify-center gap-4">
                         <motion.div
@@ -64,7 +67,7 @@ const Environment = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         initial={{ opacity: 0, y: -100 }}
                         transition={{ duration: 1.5 }}
-                        className="my-20 text-center text-4xl">Conteneur
+                        className="my-20 text-center text-4xl">{t.environment.container}
                     </motion.h3>
                     <div className="flex flex-wrap items-center justify-center gap-4">
                         <motion.div

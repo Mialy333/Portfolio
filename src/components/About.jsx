@@ -1,10 +1,10 @@
-import aboutImg from "../assets/about.png";
-import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import aboutImg from "../assets/about.png";
+import { useLanguage } from "../i18n/useLanguage";
 
 const About = () => {
-    // Séparation du texte en paragraphes
-    const paragraphs = ABOUT_TEXT.split('\n\n');
+    const { t } = useLanguage();
+    const { heading, paragraphs } = t.about;
 
     return (
         <div className="border-b border-neutral-900 pb-4">
@@ -13,8 +13,9 @@ const About = () => {
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 1.5 }}
                 className="my-20 text-center text-4xl">
-                De Financière à
-                <span className="text-pink-300"> Développeuse Web Fullstack</span>
+                {heading.before}
+                <span className="text-pink-300">{heading.highlight}</span>
+                {heading.after}
             </motion.h2>
             <div className="flex flex-wrap">
                 <motion.div
@@ -23,7 +24,7 @@ const About = () => {
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex items-center justify-center">
-                        <img className="rounded-2xl" src={aboutImg} alt="about" />
+                        <img className="rounded-2xl" src={aboutImg} alt="Mialy Ratsimbazafy" />
                     </div>
                 </motion.div>
                 <motion.div
@@ -44,6 +45,6 @@ const About = () => {
             </div>
         </div>
     );
-}
+};
 
 export default About;
